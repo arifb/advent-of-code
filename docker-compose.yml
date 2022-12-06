@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  ruby:
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/code
+    container_name: ruby3-2
+    ports:
+      - "7658:7658"
+    command: solargraph socket -h 0.0.0.0
