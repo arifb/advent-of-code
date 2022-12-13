@@ -1,5 +1,7 @@
 # README
 
+Advent of Code is an Advent calendar of small programming puzzles, see https://adventofcode.com/2022/about.
+
 ## Environment
 
 We're using docker.
